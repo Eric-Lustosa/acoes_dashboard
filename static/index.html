@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de Ações</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="/static/script.js"></script>
+</head>
+<body>
+    <h1>Consulta de Ações</h1>
+    <input type="text" id="tickerInput" placeholder="Digite o ticker (ex: AAPL, PETR4.SA)">
+    <button onclick="buscarDados()">Buscar</button>
+
+    <div id="dados"></div>
+
+    <canvas id="grafico" width="600" height="300"></canvas>
+</body>
+</html>
